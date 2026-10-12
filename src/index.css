@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fondo principal: Blanco roto */
+  --color-bg-primary: #F9FAFB;
+  /* Fondo secundario: Gris muy claro */
+  --color-bg-secondary: #F3F4F6;
+  /* Texto principal: Gris oscuro */
+  --color-text-primary: #1F2937;
+  /* Texto secundario: Gris medio */
+  --color-text-secondary: #6B7280;
+  /* Acento romántico: Rosa suave */
+  --color-accent-romantic: #F472B6;
+  --color-romantic: #F472B6;
+  /* Acento interactivo: Índigo suave */
+  --color-accent-interactive: #818CF8;
+  --color-interactive: #818CF8;
+  /* Acento destacado: Amarillo dorado */
+  --color-accent-highlight: #FBBF24;
+  --color-highlight: #FBBF24;
+  /* Acento éxito: Verde menta */
+  --color-accent-success: #34D399;
+  --color-success: #34D399;
+}
+
+body {
+  background-color: #F9FAFB;
+  color: #1F2937;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
